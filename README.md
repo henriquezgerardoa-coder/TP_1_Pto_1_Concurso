@@ -32,8 +32,5 @@ Luego de implementar escriba los siguientes casos de test:
 1. Cálculo de costo con tarjeta Visa.
 2. Cálculo de costo con tarjeta Mastercard.
 3. Cálculo de costo con tarjeta Comarca Plus.
-   Página 1 de
-   2Licenciatura en Sistemas
-   Orientación a Objetos II
 4. Cálculo de costo con tarjeta Viedma.
    Lograr alta cobertura (mayor a 90%). Verifique si quedan funcionalidades sin testear.

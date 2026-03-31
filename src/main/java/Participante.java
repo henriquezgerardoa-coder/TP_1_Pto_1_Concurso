@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Participante {
 
     private String dni;
-    private String nombre;
+    private final String nombre;
     private int puntos = 0;
 
     public Participante(String dni, String nombre) {
@@ -19,15 +19,15 @@ public class Participante {
         this.nombre = nombre;
     }
 
-    String getDni() {
+    public String Dni() {
         return dni;
     }
 
-    String getNombre() {
+    public String Nombre() {
         return nombre;
     }
 
-    int getPuntos() {
+    public int Puntos() {
         return puntos;
     }
 
@@ -51,3 +51,4 @@ public class Participante {
         return Objects.hash(dni);
     }
 }
+

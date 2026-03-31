@@ -18,6 +18,13 @@ public final class Inscripcion {
         this.fechaInscripcion = fechaInscripcion;
     }
 
+    public Participante Participante() {
+        return participante;
+    }
+
+    public LocalDateTime FechaInscripcion() {
+        return fechaInscripcion;
+    }
 
     public boolean estaInscripto(Participante participante) {
         return this.participante.equals(participante);
