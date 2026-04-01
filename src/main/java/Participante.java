@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Participante {
 
-    private String dni;
+    private final String dni;
     private final String nombre;
     private int puntos = 0;
 

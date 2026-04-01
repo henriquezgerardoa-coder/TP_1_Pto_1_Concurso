@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class Main {
     static void main(String[] args) {
         System.out.println("========================================");
-        System.out.println("  SISTEMA DE INSCRIPCIÓN A CONCURSOS");
+        System.out.println("sistemas de inscripción a Concursos");
         System.out.println("========================================\n");
 
         // Crear un concurso
@@ -13,9 +13,8 @@ public class Main {
         System.out.println("✓ Concurso creado: " + concurso.Nombre());
 
         // Configurar rango de inscripción
-        LocalDate hoy = LocalDate.now();
-        LocalDate inicio = hoy;
-        LocalDate fin = hoy.plusDays(7);
+        LocalDate inicio = LocalDate.now();
+        LocalDate fin = inicio.plusDays(7);
         concurso.establecerRangoInscripcion(inicio, fin);
         System.out.println("✓ Rango de inscripción: " + inicio + " a " + fin);
 
